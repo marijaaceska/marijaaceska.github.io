@@ -1,0 +1,132 @@
+body
+{
+    margin: 0 180px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.naslov
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: solid gray 3px;
+}
+
+#logo
+{
+    width: 200px;
+}
+
+.meni
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34%;
+    font-size: 14px;
+}
+
+a
+{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+.meni span:first-of-type a
+{
+    color: lightgreen;
+}
+
+.prvo
+{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 8px;
+}
+
+#prv_span
+{
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    font-kerning: auto;
+}
+#vtor_span
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+#photo1, #photo2, #photo3
+{
+    width: 320px;
+}
+#photo
+{
+    width: 320px;
+}
+.vtoro
+{
+    margin-bottom: 5px;
+    padding: 5px 50px;
+    background-color: lightcyan;
+}
+
+#prv_del
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#prv_del p
+{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+#vtor_del
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vtor_del p
+{
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#tret_del
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#tret_del p
+{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    border-top: solid gray 3px;
+}
+
+#footer
+{
+    font-family: 'Georgia', serif;
+    font-size: 11px;
+}
